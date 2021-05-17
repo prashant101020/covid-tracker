@@ -1,0 +1,61 @@
+/* @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } */
+  /* .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+   */
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  h2{
+    display: flex;
+    color: white;
+    padding-left: 450px;
+  animation: blinker 1s linear infinite;
+  }
+.card{
+    height:150px;
+    width:200px;
+    background-color: blue;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 10%;
+}
+.card:hover{
+    transform: scale(1.2);
+    transition-duration:1s ;
+}
+.upper,.lower{
+display: flex;
+}
+h1{
+    padding-left: 370px;
+    display: flex;
+    color: #27a6d9;
+    align-items: center;
+}
+li{
+ margin: 50px;
+ justify-content: space-evenly;
+}
+body{
+    background-color: black;
+}
+ul{
+    flex-grow: 1;
+    display: flex;
+}
+.card:hover{
+    background-color: red;
+}
+.card_name{
+    text-align: center;
+    
+}
